@@ -1,0 +1,12 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node-jessie-browsers
+    steps:
+      - checkout
+      
+      - run:
+          name: Start Selenium Test on Browser Stack 
+          command:  mvn -X clean ; mvn -X compile ; mvn test
+          background: true
