@@ -10,7 +10,7 @@ import org.testng.collections.Lists;
 import chimpBasePackage.ChimpBaseClass;
 
 
-public class ExecuteTestNG extends ChimpBaseClass{
+/* public class ExecuteTestNG extends ChimpBaseClass{
 
 	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
@@ -28,4 +28,4 @@ public class ExecuteTestNG extends ChimpBaseClass{
 		objtng.run();
 	}
 
-}
+} */
